@@ -36,9 +36,7 @@ function App() {
         <div className='emoji' key={label} onClick={
           () => {
           
-          const fileName = emojis[label].match(/(\d|\w)+.png/g)
-          const code = fileName.toString().slice(0, fileName.length - 5)
-          setEmoji(code)
+            navigator.clipboard.writeText(label)
         
           }
         }>
