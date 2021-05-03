@@ -94,3 +94,13 @@ body{
 }
 
 
+.clicked{
+    animation-name: click;
+    animation-duration: .15s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes click {
+    from {border: 1px solid #dbdbdb; box-shadow: none;}
+    to {border: 1px solid transparent; box-shadow: 0 0 0px 3px #357266;}
+}

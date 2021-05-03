@@ -31,14 +31,16 @@ function App() {
         if (!isInSearch){return ''}
       }      
 
+      let className = 'emoji'
+
+      label === emoji && (className += ' clicked')
 
       return (
-        <div className='emoji' key={label} onClick={
+        <div className={className} key={label} onClick={
           () => {
-          
             navigator.clipboard.writeText(`:${label}:`)
-        
-          }
+            setEmoji(label)
+        }
         }>
           
           <img src={emojis[label]} alt={label}/>
@@ -48,18 +50,14 @@ function App() {
   )
 
 
-  //(e) => setSearch(e.target.value)
   return (
     <div className='App'>
       <div className='topbar'>
-
-
         <div className='search'>
           <input type='text' onChange={(e) => setSearch(e.target.value.toLowerCase())} placeholder='search'/>
         </div>
-
       </div>
-
+      
       <div className='emojiWrapper'>
         {icons}
       </div>
