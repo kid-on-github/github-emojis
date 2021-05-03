@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/github-emojis/static/css/main.3929259d.chunk.css",
+    "main.css": "/github-emojis/static/css/main.19d21e1d.chunk.css",
     "main.js": "/github-emojis/static/js/main.673de228.chunk.js",
     "main.js.map": "/github-emojis/static/js/main.673de228.chunk.js.map",
     "runtime-main.js": "/github-emojis/static/js/runtime-main.1cf656fb.js",
@@ -8,13 +8,13 @@
     "static/js/2.910f2f63.chunk.js": "/github-emojis/static/js/2.910f2f63.chunk.js",
     "static/js/2.910f2f63.chunk.js.map": "/github-emojis/static/js/2.910f2f63.chunk.js.map",
     "index.html": "/github-emojis/index.html",
-    "static/css/main.3929259d.chunk.css.map": "/github-emojis/static/css/main.3929259d.chunk.css.map",
+    "static/css/main.19d21e1d.chunk.css.map": "/github-emojis/static/css/main.19d21e1d.chunk.css.map",
     "static/js/2.910f2f63.chunk.js.LICENSE.txt": "/github-emojis/static/js/2.910f2f63.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1cf656fb.js",
     "static/js/2.910f2f63.chunk.js",
-    "static/css/main.3929259d.chunk.css",
+    "static/css/main.19d21e1d.chunk.css",
     "static/js/main.673de228.chunk.js"
   ]
 }
