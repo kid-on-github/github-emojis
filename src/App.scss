@@ -52,12 +52,12 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    padding: 50px 15vw;
+    padding: 50px 5vw;
 }
 
 
 .topbar{
-    padding: 10px calc(15vw + 20px);
+    padding: 10px calc(5vw + 20px);
     height: 100px;
     width: 100%;
     display: flex;
@@ -74,8 +74,9 @@ body{
 
 
 .search{
-    width: 100%;
-    min-width: 400px;
+    min-width: Min(100%, 400px);
+    // width: 100%;
+    // min-width: 400px;
     flex: 0;
 }
 
