@@ -36,7 +36,7 @@ function App() {
         <div className='emoji' key={label} onClick={
           () => {
           
-            navigator.clipboard.writeText(label)
+            navigator.clipboard.writeText(`:${label}:`)
         
           }
         }>
